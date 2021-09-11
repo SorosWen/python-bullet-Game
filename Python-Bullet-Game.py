@@ -410,7 +410,7 @@ class Isaac:
         self.balllist.append([x, y, self.x, self.y, color, self.ball_time])
 
 
-def main():
+def main_function():
     tk = Tk()
     tk.title("The Binding of Isaac")
 
@@ -429,4 +429,4 @@ def main():
     isaac = Isaac(tk, game, element, item)
     tk.mainloop()
 
-main()
+main_function()
